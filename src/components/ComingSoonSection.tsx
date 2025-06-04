@@ -12,7 +12,7 @@ const ComingSoonSection = ({
   title = "Coming Soon",
   subtitle = "We're working on something perfect",
   launchDate = new Date("2025-08-01"),
-  description = "Konstant is still forging itself. We need some time to design and create something awesome.",
+  description = "Konstant is still in the forge. We need some time to design and create something awesome.",
 }: ComingSoonSectionProps) => {
   const calculateTimeRemaining = () => {
     const now = new Date();
